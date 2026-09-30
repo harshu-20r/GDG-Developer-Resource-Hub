@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GDG Resource Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <h1>🚀 GDG Resource Hub</h1>
+            <p>Discover useful resources for developers</p>
+        </div>
+
+        <button id="themeBtn">🌙 Dark Mode</button>
+    </header>
+
+
+    <main>
+
+        <!-- Search and Filter -->
+        <section class="controls">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search resources..."
+            >
+
+            <select id="categoryFilter">
+                <option value="All">All Categories</option>
+                <option value="Web Dev">Web Dev</option>
+                <option value="App Dev">App Dev</option>
+                <option value="AI/ML">AI/ML</option>
+                <option value="Tools">Tools</option>
+            </select>
+
+        </section>
+
+
+        <!-- Add Resource -->
+        <section class="add-box">
+
+            <h2>Add a Resource</h2>
+
+            <input
+                type="text"
+                id="title"
+                placeholder="Resource title"
+            >
+
+            <input
+                type="text"
+                id="description"
+                placeholder="Short description"
+            >
+
+            <input
+                type="text"
+                id="link"
+                placeholder="Resource link"
+            >
+
+            <select id="category">
+                <option value="Web Dev">Web Dev</option>
+                <option value="App Dev">App Dev</option>
+                <option value="AI/ML">AI/ML</option>
+                <option value="Tools">Tools</option>
+            </select>
+
+            <button onclick="addResource()">
+                + Add Resource
+            </button>
+
+        </section>
+
+
+        <!-- Resources -->
+        <section>
+
+            <h2>Resources</h2>
+
+            <div id="resourceContainer"></div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Made for GDGoC AITR Web Developer Recruitment 2026</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
