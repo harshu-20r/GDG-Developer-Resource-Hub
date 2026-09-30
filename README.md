@@ -1,6 +1,14 @@
 # GDG Developer Resource Hub
 
-A simple developer resource hub created for GDGoC AITR Web Developer Recruitment 2026.
+A developer resource hub created for GDGoC AITR Web Developer Recruitment 2026.
+
+## Live Website
+
+https://gdg-developer-resource-hub.vercel.app
+
+## GitHub Repository
+
+https://github.com/harshu-20r/GDG-Developer-Resource-Hub
 
 ## Features
 
@@ -8,9 +16,16 @@ A simple developer resource hub created for GDGoC AITR Web Developer Recruitment
 - Filter resources by category
 - Add new resources
 - Delete resources
-- Data persistence using LocalStorage
+- LocalStorage data persistence
 - Dark/Light mode
 - Responsive design
+
+## Categories
+
+- Web Dev
+- App Dev
+- AI/ML
+- Tools
 
 ## Technologies Used
 
@@ -19,9 +34,6 @@ A simple developer resource hub created for GDGoC AITR Web Developer Recruitment
 - JavaScript
 - LocalStorage
 
-## Categories
+## How to Run
 
-- Web Dev
-- App Dev
-- AI/ML
-- Tools
+Open `index.html` in a browser or use Live Server in VS Code.
